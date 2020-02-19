@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Index style */
 
 .nav-top-container {
 	width: 100%;
@@ -93,7 +94,6 @@ table {
 	width: 50px;
 	height: 50px;
 	float: right;
-	/* padding-right: 15px; */
 }
 
 .nav-bottom-middle {
@@ -234,4 +234,41 @@ table {
 .footer-bottom-img img {
 	width: 50px;
 	height: 50px;
+}
+/* About style */
+
+.page-level {
+	width: 15%;
+	position: absolute;
+}
+
+.page-level ul li {
+	display: inline;
+}
+
+.page-level ul li a {
+	text-decoration: none;
+}
+
+.main-top-container {
+	text-align: center;
+	width: 100%;
+}
+
+.text-card {
+	background-color: white;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.text-contact a {
+	text-decoration: none;
+}
+
+.main-logo {
+	text-align: center;
+}
+
+.main-previous {
+	text-align: center;
 }
