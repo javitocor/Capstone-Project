@@ -46,3 +46,192 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.nav-top-container {
+	width: 100%;
+	height: 40px;
+	background-color: #272A31;
+}
+
+.nav-top {
+	padding: 8px 182px;
+}
+
+.nav-top ul {
+	float: right;
+	margin: 0;
+}
+
+.nav-top ul li {
+	display: inline;
+	padding: 0 5px;
+}
+
+.nav-top ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 550;
+}
+
+.nav-bottom-container {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 5px;
+}
+
+
+.nav-bottom-left {
+	width: 25%;
+}
+
+.nav-bottom-left img {
+	width: 50px;
+	height: 50px;
+	float: right;
+	/* padding-right: 15px; */
+}
+
+.nav-bottom-middle {
+	width: 50%;
+}
+
+.nav-bottom-middle ul li {
+	display: inline;
+	padding: 0 25px;
+}
+
+.nav-bottom-middle ul li a {
+	text-decoration: none;
+	color: #272A31;
+}
+
+.nav-bottom-right {
+	width: 25%;
+}
+
+.nav-bottom-right p {
+	border: 4px solid #EC5242;
+	color: #EC5242;
+	padding: 8px;
+	width: 125px;
+}
+
+.main-section-container {
+	width: 100%;
+	padding-left: 80px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url(./images/chessbackground.jfif);
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.main-briefing {
+	background-color: white;
+	width: 60%;
+	padding: 20px 10px;
+}
+
+.main-program-container {
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.main-program {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	width: 75%;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.main-program-cards {
+	width: 15%;
+}
+
+.main-program-container h6 {
+	margin: 15px 0;
+}
+
+.featured-container {
+	width: 100%;
+}
+
+.featured-container h2 {
+	text-align: center;
+}
+
+.featured {
+	width: 75%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.featured-cards {
+	width: 45%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.featured-pic {
+	width: 30%;
+}
+
+.featured-pic img {
+	width: 90px;
+	height: 90px;
+}
+
+.featured-text {
+	width: 70%;
+}
+
+.footer-top-container {
+	background-color: #272A31;
+	padding: 20px 5px;
+}
+
+.footer-top-container h2 {
+	text-align: center;
+	color: #D3D3D3;
+}
+
+.footer-top {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer-top ul li {
+	display: inline;
+	padding: 0 20px;
+}
+
+.footer-top ul li a img {
+	width: 50px;
+	height: 50px;
+}
+.footer-bottom-container {
+	width: 100%;
+	display: flex;
+	padding: 25px;
+}
+.footer-bottom-img {
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+.footer-bottom-img img {
+	width: 50px;
+	height: 50px;
+}
