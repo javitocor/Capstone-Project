@@ -272,3 +272,164 @@ table {
 .main-previous {
 	text-align: center;
 }
+
+.footer-bottom-container-2 {
+	background-color: #272A31;
+	width: 100%;
+	display: flex;
+	padding: 25px;
+}
+
+.footer-bottom-2 span,
+.footer-bottom-2 p {
+	color: white;
+}
+
+/* style tickets */
+
+.main-lunch h3,
+.step-2,
+.step-1, 
+.main-tickets h3{
+	text-align: center;
+}
+.tickets {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	grid-template-areas: 
+	"ticket day-1 day-2 day-2 fide"
+	"date f28 f29 f2829 fide2829"
+	"normal price1 price2 price3 price4"
+	"student price5 price6 price7 price8";
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+	border: 1px solid gray;	
+}
+
+.ticket {
+	grid-area: ticket;
+	border: 1px solid gray;
+}
+
+.day-1 {
+	grid-area: day-1;
+	border: 1px solid gray;	
+}
+
+.day-2 {
+	grid-area: day-2;
+	border: 1px solid gray;	
+}
+
+.fide {
+	grid-area: fide;
+	border: 1px solid gray;	
+}
+
+.date {
+	grid-area: date;
+	border: 1px solid gray;	
+}
+
+.f28 {
+	grid-area: f28;
+	border: 1px solid gray;	
+}
+
+.f29 {
+	grid-area:  f29;
+	border: 1px solid gray;		
+}
+
+.f2829 {
+	grid-area: f2829;
+	border: 1px solid gray;	
+}
+
+.fide2829 {
+	grid-area: fide2829;
+	border: 1px solid gray;	
+}
+
+.normal {
+	grid-area: normal;
+	border: 1px solid gray;	
+}
+
+.price1 {
+	grid-area: price1;
+}
+
+.price2 {
+	grid-area: price2;
+}
+
+.price3 {
+	grid-area: price3;
+}
+
+.price4 {
+	grid-area: price4;
+}
+
+.student {
+	grid-area: student;
+	border: 1px solid gray;	
+}
+
+.price5 {
+	grid-area: price5;
+}
+
+.price6 {
+	grid-area: price6;
+}
+
+.price7 {
+	grid-area: price7;
+}
+
+.price8 {
+	grid-area: price8;
+}
+
+.price1,
+.price2,
+.price3,
+.price4,
+.price5,
+.price6,
+.price7,
+.price8 {
+	display: inline-block;
+	border: 1px solid gray;	
+}
+
+.price1 label,
+.price2 label,
+.price3 label,
+.price4 label,
+.price5 label,
+.price6 label,
+.price7 label,
+.price8 label {
+	display: block;
+}
+
+.lunch {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.lunch-menu,
+.lunch-day {
+	text-align: center;
+}
+
+.main-lunch {
+	text-align: center;
+}
