@@ -327,7 +327,7 @@ table {
 }
 
 .text-contact {
-	margin: 20px auto;
+	margin: 40px auto;
 }
 
 .text-contact a {
@@ -341,10 +341,35 @@ table {
 	text-align: center;
 	margin: 25px 0;
 	padding: 25px 0;
+	border-bottom: 1px solid gray;
+}
+
+.main-logo p {
+	padding: 40px 0;
+}
+
+.logo-img {
+	margin: 25px auto;
+	padding: 35px 0;
+}
+
+.logo-img ul li {
+	display: inline;
+	padding: 0 10px;
+}
+
+.logo-img ul li a img {
+	width: 50px;
+	height: 50px;
 }
 
 .main-previous {
-	text-align: center;	
+	text-align: center;
+	margin: 25px 0;
+}
+
+.main-previous p {
+	padding: 34px 0;
 }
 
 .previous-cards-container {
