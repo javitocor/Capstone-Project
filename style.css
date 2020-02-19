@@ -307,24 +307,53 @@ table {
 .main-top-container {
 	text-align: center;
 	width: 100%;
+	padding: 25px 0;
+	background: url(./images/background2.jfif);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.main-top-container h1 {
+	color: #EC5242;
+	margin: 50px;
 }
 
 .text-card {
 	background-color: white;
 	width: 75%;
-	margin: 0 auto;
+	margin: 15px auto;
+	border: 1px solid gray;
+	padding: 20px 60px;
+}
+
+.text-contact {
+	margin: 20px auto;
 }
 
 .text-contact a {
 	text-decoration: none;
+	color: #272A31;
+	font-weight: bold;
+	border-bottom: 1px solid #272A31;
 }
 
 .main-logo {
 	text-align: center;
+	margin: 25px 0;
+	padding: 25px 0;
 }
 
 .main-previous {
-	text-align: center;
+	text-align: center;	
+}
+
+.previous-cards-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 75%;
+	margin: 40px auto;
+	padding: 20px 66px;
 }
 
 .footer-bottom-container-2 {
