@@ -294,14 +294,18 @@ table {
 .page-level {
 	width: 15%;
 	position: absolute;
+	right: 100px;
+	top: 150px;
 }
 
 .page-level ul li {
 	display: inline;
+	padding: 0 1px;
 }
 
 .page-level ul li a {
 	text-decoration: none;
+	color: #272A31;
 }
 
 .main-top-container {
@@ -395,6 +399,47 @@ table {
 
 /* style tickets */
 
+.main-tickets {
+	padding-top: 45px;
+	background-color: lightgray;
+	padding-bottom: 50px;
+	width: 100%;
+}
+
+.step-2 {
+	width: 59%;
+	margin: 35px auto;
+	border: 1px solid gray;
+	border-radius: 25px;
+}
+
+.step-1 {
+	width: 55%;
+	margin: 35px auto;
+	border: 1px solid gray;
+	border-radius: 25px;
+	/* padding: 25px; */
+}
+
+.step-2 ul,
+.step-1 ul {
+	list-style-type: disc;
+	color: #EC5242;
+	display: inline-flex;
+	margin-bottom: 0;
+	padding: 10px 5px 0px;
+}
+
+.step-2 ul li p span,
+.step-1 ul li p span {
+	color: #EC5242;
+}
+
+.step-2 ul li p,
+.step-1 ul li p {
+	color: #272A31;
+}
+
 .main-lunch h3,
 .step-2,
 .step-1, 
@@ -407,65 +452,103 @@ table {
 	grid-template-rows: repeat(4, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
-	grid-template-areas: 
-	"ticket day-1 day-2 day-2 fide"
-	"date f28 f29 f2829 fide2829"
-	"normal price1 price2 price3 price4"
-	"student price5 price6 price7 price8";
+	grid-template-areas:
+		"ticket day-1 day-2 day-2 fide"
+		"date f28 f29 f2829 fide2829"
+		"normal price1 price2 price3 price4"
+		"student price5 price6 price7 price8";
 	text-align: center;
+	vertical-align:middle;
 	width: 75%;
-	margin: 0 auto;
-	border: 1px solid gray;	
+	margin: 25px auto;
+	border: 1px solid gray;
+	padding: 35;
 }
 
 .ticket {
 	grid-area: ticket;
 	border: 1px solid gray;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .day-1 {
 	grid-area: day-1;
 	border: 1px solid gray;	
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .day-2 {
 	grid-area: day-2;
-	border: 1px solid gray;	
+	border: 1px solid gray;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;	
 }
 
 .fide {
 	grid-area: fide;
-	border: 1px solid gray;	
+	border: 1px solid gray;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;	
 }
 
 .date {
 	grid-area: date;
-	border: 1px solid gray;	
+	border: 1px solid gray;
+	background-color: white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .f28 {
 	grid-area: f28;
 	border: 1px solid gray;	
+	background-color: white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .f29 {
 	grid-area:  f29;
-	border: 1px solid gray;		
+	border: 1px solid gray;	
+	background-color: white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;	
 }
 
 .f2829 {
 	grid-area: f2829;
 	border: 1px solid gray;	
+	background-color: white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .fide2829 {
 	grid-area: fide2829;
 	border: 1px solid gray;	
+	background-color: white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .normal {
 	grid-area: normal;
-	border: 1px solid gray;	
+	border: 1px solid gray;
+	background-color: white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;	
 }
 
 .price1 {
@@ -487,6 +570,10 @@ table {
 .student {
 	grid-area: student;
 	border: 1px solid gray;	
+	background-color: white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .price5 {
@@ -515,6 +602,9 @@ table {
 .price8 {
 	display: inline-block;
 	border: 1px solid gray;	
+	color: #EC5242;
+	background-color: white;
+	font-weight: bold;
 }
 
 .price1 label,
@@ -531,6 +621,7 @@ table {
 .lunch {
 	width: 75%;
 	margin: 0 auto;
+	padding: 35px 0;
 }
 
 .lunch-menu,
@@ -540,4 +631,47 @@ table {
 
 .main-lunch {
 	text-align: center;
+	margin: 0 auto;
+	padding: 25px;
+	width: 100%;
+}
+
+.main-lunch h3 {
+	margin: 35px auto;
+}
+
+.lunch-2,
+.lunch-1 {
+	border: 1px solid gray;
+	margin: 20px auto;
+}
+
+.lunch-day {
+	border: 1px solid gray;
+	background-color: lightgray;
+}
+
+.lunch-menu {
+	padding: 30px 15px;
+}
+
+.lunch-menu label {
+	padding: 0 30px;
+}
+
+.button {
+	margin: 35px auto;
+	display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+	vertical-align: middle;
+	user-select: none;
+    border: 1px solid #EC5242;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+	background-color: #EC5242;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
