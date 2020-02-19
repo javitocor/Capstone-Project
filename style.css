@@ -126,9 +126,17 @@ table {
 	padding-left: 80px;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-image: url(./images/chessbackground.jfif);
-	background-repeat: no-repeat;
-  	background-size: cover;
+	background: gray url(./images/chessbackground.jfif) repeat fixed center;
+	
+}
+
+.main-section {
+	margin-bottom: 25px;
+}
+
+.main-section span,
+.main-section h1 {
+	color: #EC5242;
 }
 
 .main-briefing {
@@ -137,10 +145,15 @@ table {
 	padding: 20px 10px;
 }
 
+.main-location {
+	margin-top: 25px;
+}
+
 .main-program-container {
 	width: 100%;
 	text-align: center;
 	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .main-program {
@@ -153,19 +166,55 @@ table {
 }
 
 .main-program-cards {
-	width: 15%;
+	width: 19%;
+	background-color: #272A31;
+	padding: 5px 10px;
+}
+
+.fa-calendar-alt,
+.fa-list-alt,
+.fa-chess,
+.fa-photo-video,
+.fa-shopping-cart {
+	font-size: 30px;
+	color: #D3D3D3;
+}
+
+.main-program-cards div {
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.main-program-cards h4 a{
+	text-decoration: none;
+	color: #EC5242;
+}
+
+.main-program-cards p a {
+	text-decoration: none;
+	color: #D3D3D3;
 }
 
 .main-program-container h6 {
-	margin: 15px 0;
+	margin: 35px 0 0 0;
+}
+
+.main-program-container h6 a {
+	text-decoration: none;
+	color:#D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
 }
 
 .featured-container {
 	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	background-color: white;
 }
 
 .featured-container h2 {
 	text-align: center;
+	margin-bottom: 35px;
 }
 
 .featured {
@@ -177,23 +226,28 @@ table {
 }
 
 .featured-cards {
-	width: 45%;
+	width: 48%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
 .featured-pic {
-	width: 30%;
+	width: 30%;	
 }
 
 .featured-pic img {
 	width: 90px;
 	height: 90px;
+	box-shadow: -5px -5px 8px gray, -10px -10px 8px darkgray, -15px -15px 8px lightgray;
 }
 
 .featured-text {
 	width: 70%;
+}
+
+.featured-text span {
+	color: #EC5242;
 }
 
 .footer-top-container {
