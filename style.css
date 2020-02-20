@@ -52,15 +52,19 @@ table {
 	width: 100%;
 	height: 40px;
 	background-color: #272A31;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .nav-top {
-	padding: 8px 211px;
+	padding: 8px 110px;
+	width: 60%;
 }
 
 .nav-top ul {
-	float: right;
 	margin: 0;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .nav-top ul li {
@@ -114,9 +118,14 @@ table {
 	width: 50%;
 }
 
+.nav-bottom-middle ul {
+	display: flex;
+	justify-content: space-between;
+}
+
 .nav-bottom-middle ul li {
 	display: inline;
-	padding: 0 25px;
+	padding: 0 10px;
 }
 
 .nav-bottom-middle ul li a {
@@ -131,6 +140,9 @@ table {
 
 .nav-bottom-right {
 	width: 25%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 .nav-bottom-right p {
@@ -227,7 +239,7 @@ table {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
-	width: 75%;
+	width: 80%;
 	margin: 0 auto;
 	padding: 15px 0;
 }
@@ -319,7 +331,7 @@ table {
 }
 
 .featured {
-	width: 75%;
+	width: 80%;
 	margin: 60px auto;
 	display: flex;
 	flex-flow: row wrap;
@@ -331,21 +343,23 @@ table {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+	margin-bottom: 10px;
 }
 
 .featured-pic {
-	width: 25%;
+	width: 30%;
 }
 
 .featured-pic img {
-	width: 100px;
+	width: 100%;
 	height: 100px;
 	box-shadow: -5px -5px 8px gray, -10px -10px 8px darkgray, -15px -15px 8px lightgray;
 }
 
 .featured-text {
-	width: 75%;
+	width: 70%;
 	justify-content: start;
+	padding: 0 6px 0 6px;
 }
 
 .featured-text h4 {
@@ -430,7 +444,7 @@ table {
 
 .footer-bottom {
 	width: 82%;
-	padding: 0 175px 0 0;
+	padding: 0 130px 0 0;
 }
 
 .footer-bottom span,
@@ -441,10 +455,12 @@ table {
 /* About style */
 
 .page-level {
-	width: 15%;
+	width: 20%;
 	position: absolute;
-	right: 166px;
+	right: 117px;
 	top: 125px;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .page-level ul li {
@@ -496,6 +512,7 @@ table {
 }
 
 .text-contact {
+	width: 50%;
 	margin: 40px auto;
 }
 
@@ -530,6 +547,8 @@ table {
 }
 .main-logo p {
 	padding: 30px 20px;
+	width: 85%;
+	margin: 0 auto;
 }
 
 .main-logo hr {
@@ -545,6 +564,7 @@ table {
 }
 
 .logo-img {
+	width: 90%;
 	margin: 12px auto;
 	padding: 20px 0;
 }
@@ -565,6 +585,7 @@ table {
 .logo-img ul li a img {
 	width: 50px;
 	height: 50px;
+	margin: 10px 0;
 }
 
 .main-previous {
@@ -591,26 +612,27 @@ table {
 .main-previous p {
 	padding: 25px 0;
 	color: #272A31;
+	width:  85%;
+	margin: 0 auto;
 }
 
 .previous-cards-container {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	width: 65%;
+	width: 70%;
 	margin: 30px auto;
-	padding: 20px 66px;
 }
 
 .previous-cards {
-	width: 276px;
+	width: 45%;
 	height: 250px;
 	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-	box-shadow: inset 276px 250px rgba(236, 82, 66, 0.8);	
+	box-shadow: inset 276px 250px rgba(236, 82, 66, 0.8);
 }
 
 .previous-cards:hover {
@@ -645,6 +667,11 @@ table {
 	width: 100%;
 	display: flex;
 	padding: 25px;
+}
+
+.footer-bottom-2 {
+	padding-right: 130px;
+	width: 72%;
 }
 
 .footer-bottom-2 span,
@@ -695,6 +722,7 @@ table {
 .step-2 ul,
 .step-1 ul {
 	list-style-type: disc;
+	list-style-position: inside;
 	color: #EC5242;
 	display: inline-flex;
 	margin-bottom: 0;
@@ -709,6 +737,7 @@ table {
 .step-2 ul li p,
 .step-1 ul li p {
 	color: #272A31;
+	display: inline;
 }
 
 .main-lunch h3,
@@ -982,4 +1011,10 @@ table {
 
 .button:hover {
 	color: #D3D3D3;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 768px){
+	
 }
