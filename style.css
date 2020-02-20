@@ -92,6 +92,7 @@ table {
 
 .nav-bottom-left {
 	width: 25%;
+	padding-right: 25px;
 }
 
 .nav-bottom-left p {
@@ -191,13 +192,11 @@ table {
 .main-location {
 	width: 58%;
 	margin-top: 25px;
-	/* background-color: #D3D3D3; */
-	/* opacity: 0.6; */
 }
 
 .main-location h1,
 .main-location span {
-	color: #272A31;
+	color: #d3d3d3;
 }
 
 .main-program-container {
@@ -335,39 +334,67 @@ table {
 }
 
 .featured-pic {
-	width: 30%;
+	width: 25%;
 }
 
 .featured-pic img {
-	width: 90px;
-	height: 90px;
+	width: 100px;
+	height: 100px;
 	box-shadow: -5px -5px 8px gray, -10px -10px 8px darkgray, -15px -15px 8px lightgray;
 }
 
 .featured-text {
-	width: 70%;
+	width: 75%;
+	justify-content: start;
 }
 
 .featured-text h4 {
-	font-size: 
+	font-size: 22px;
 }
 
 .featured-text span {
 	color: #EC5242;
+	font-size: 14px;
+	line-height: 0;
+}
+
+.featured-text hr {
+	width: 7%;
+	border: 2px solid #d3d3d3;
+	fill: #d3d3d3;
+	transition: none;
+	margin: 6px 0;
+}
+
+.featured-text hr:hover {
+	transition: none !important;
 }
 
 .featured-text p {
-
+	font-size: 14px;
 }
 
 .footer-top-container {
 	background-color: #272A31;
-	padding: 20px 5px;
+	padding: 20px 10px;
 }
 
 .footer-top-container h2 {
 	text-align: center;
 	color: #D3D3D3;
+	font-size: 22px;
+}
+
+.footer-top-container hr {
+	width: 3%;
+	border: 1px solid #ec5242;
+	fill: #EC5242;
+	transition: width 2s;
+	margin-top: 0;
+}
+
+.footer-top-container hr:hover {
+	width: 7%;
 }
 
 .footer-top {
@@ -378,26 +405,37 @@ table {
 
 .footer-top ul li {
 	display: inline;
-	padding: 0 20px;
+	padding: 0 42px;
 }
 
 .footer-top ul li a img {
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 60px;
 }
 .footer-bottom-container {
 	width: 100%;
 	display: flex;
 	padding: 25px;
+	height: 125px;
 }
 .footer-bottom-img {
-	width: 30%;
+	width: 18%;
 	text-align: center;
 	margin: auto;
 }
 .footer-bottom-img img {
 	width: 50px;
 	height: 50px;
+}
+
+.footer-bottom {
+	width: 82%;
+	padding: 0 175px 0 0;
+}
+
+.footer-bottom span,
+.footer-bottom p {
+	font-size: small;
 }
 /* About style */
 
