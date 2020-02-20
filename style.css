@@ -55,7 +55,7 @@ table {
 }
 
 .nav-top {
-	padding: 8px 190px;
+	padding: 8px 211px;
 }
 
 .nav-top ul {
@@ -443,7 +443,7 @@ table {
 .page-level {
 	width: 15%;
 	position: absolute;
-	right: 100px;
+	right: 166px;
 	top: 125px;
 }
 
@@ -657,9 +657,25 @@ table {
 
 .main-tickets {
 	padding-top: 45px;
-	background-color: lightgray;
+	background-color: #D3D3D3;
 	padding-bottom: 50px;
 	width: 100%;
+}
+
+.main-tickets h3 {
+	color: #272A31;
+}
+
+.main-tickets hr {
+	width: 5%;
+	border: 2px solid #ec5242;
+	fill: #EC5242;
+	transition: width 2s;
+	margin: 10px auto;
+}
+
+.main-tickets hr:hover {
+	width: 14%;
 }
 
 .step-2 {
@@ -674,7 +690,6 @@ table {
 	margin: 35px auto;
 	border: 1px solid gray;
 	border-radius: 25px;
-	/* padding: 25px; */
 }
 
 .step-2 ul,
@@ -717,13 +732,14 @@ table {
 	vertical-align:middle;
 	width: 75%;
 	margin: 25px auto;
-	border: 1px solid gray;
+	border: 10px solid #D3D3D3;
+	border-image: url(./images/chessboard.png) repeat 42;
 	padding: 35;
 }
 
 .ticket {
 	grid-area: ticket;
-	border: 1px solid gray;
+	border: 1px solid #272A31;
 	display: flex;
   	justify-content: center;
   	align-items: center;
@@ -731,32 +747,37 @@ table {
 
 .day-1 {
 	grid-area: day-1;
-	border: 1px solid gray;	
+	border: 1px solid #272A31;	
 	display: flex;
   	justify-content: center;
-  	align-items: center;
+	align-items: center;
+	color: #272A31;
 }
 
 .day-2 {
 	grid-area: day-2;
-	border: 1px solid gray;
+	border: 1px solid #272A31;
 	display: flex;
   	justify-content: center;
-  	align-items: center;	
+	align-items: center;
+	color: #272A31;	
 }
 
 .fide {
 	grid-area: fide;
-	border: 1px solid gray;
+	border: 1px solid #272A31;
 	display: flex;
   	justify-content: center;
-  	align-items: center;	
+	align-items: center;
+	color: #272A31;
+	  	
 }
 
 .date {
 	grid-area: date;
-	border: 1px solid gray;
+	border: 1px solid #272A31;
 	background-color: white;
+	color: #272A31;
 	display: flex;
   	justify-content: center;
   	align-items: center;
@@ -764,8 +785,9 @@ table {
 
 .f28 {
 	grid-area: f28;
-	border: 1px solid gray;	
+	border: 1px solid #272A31;	
 	background-color: white;
+	color: #272A31;
 	display: flex;
   	justify-content: center;
   	align-items: center;
@@ -773,8 +795,9 @@ table {
 
 .f29 {
 	grid-area:  f29;
-	border: 1px solid gray;	
+	border: 1px solid #272A31;	
 	background-color: white;
+	color: #272A31;
 	display: flex;
   	justify-content: center;
   	align-items: center;	
@@ -782,8 +805,9 @@ table {
 
 .f2829 {
 	grid-area: f2829;
-	border: 1px solid gray;	
+	border: 1px solid #272A31;	
 	background-color: white;
+	color: #272A31;
 	display: flex;
   	justify-content: center;
   	align-items: center;
@@ -791,8 +815,9 @@ table {
 
 .fide2829 {
 	grid-area: fide2829;
-	border: 1px solid gray;	
+	border: 1px solid #272A31;	
 	background-color: white;
+	color: #272A31;
 	display: flex;
   	justify-content: center;
   	align-items: center;
@@ -800,8 +825,9 @@ table {
 
 .normal {
 	grid-area: normal;
-	border: 1px solid gray;
+	border: 1px solid #272A31;
 	background-color: white;
+	color: #272A31;
 	display: flex;
   	justify-content: center;
   	align-items: center;	
@@ -825,8 +851,9 @@ table {
 
 .student {
 	grid-area: student;
-	border: 1px solid gray;	
+	border: 1px solid #272A31;	
 	background-color: white;
+	color: #272A31;
 	display: flex;
   	justify-content: center;
   	align-items: center;
@@ -857,7 +884,7 @@ table {
 .price7,
 .price8 {
 	display: inline-block;
-	border: 1px solid gray;	
+	border: 1px solid #272A31;	
 	color: #EC5242;
 	background-color: white;
 	font-weight: bold;
@@ -871,7 +898,7 @@ table {
 .price6 label,
 .price7 label,
 .price8 label {
-	display: block;
+	display: block;	
 }
 
 .lunch {
@@ -893,7 +920,20 @@ table {
 }
 
 .main-lunch h3 {
-	margin: 35px auto;
+	margin: 15px auto;
+	color: #272A31;
+}
+
+.main-lunch hr {
+	width: 5%;
+	border: 2px solid #ec5242;
+	fill: #EC5242;
+	transition: width 2s;
+	margin: 10px auto;
+}
+
+.main-lunch hr:hover {
+	width: 17%;
 }
 
 .lunch-2,
@@ -903,12 +943,20 @@ table {
 }
 
 .lunch-day {
-	border: 1px solid gray;
-	background-color: lightgray;
+	padding: 7px;
+	background-color: #D3D3D3;
+}
+
+.lunch-day h4 {
+	color: #272A31;
 }
 
 .lunch-menu {
 	padding: 30px 15px;
+}
+
+.menu {
+	color: #272A31;
 }
 
 .lunch-menu label {
@@ -919,7 +967,7 @@ table {
 	margin: 35px auto;
 	display: inline-block;
     font-weight: 400;
-    color: white;
+    color: #272A31;
     text-align: center;
 	vertical-align: middle;
 	user-select: none;
@@ -930,4 +978,8 @@ table {
     border-radius: .25rem;
 	background-color: #EC5242;
 	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button:hover {
+	color: #D3D3D3;
 }
