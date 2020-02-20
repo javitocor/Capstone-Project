@@ -569,20 +569,75 @@ table {
 
 .main-previous {
 	text-align: center;
-	margin: 25px 0;
+	margin: 25px 0 55px 0;
+}
+
+.main-previous h3 {
+	color: #272A31;
+}
+
+.main-previous hr {
+	width: 11%;
+	border: 2px solid #ec5242;
+	fill: #EC5242;
+	transition: width 2s;
+	margin: 15px auto;
+}
+
+.main-previous hr:hover {
+	width: 38%;
 }
 
 .main-previous p {
-	padding: 34px 0;
+	padding: 25px 0;
+	color: #272A31;
 }
 
 .previous-cards-container {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	width: 75%;
-	margin: 40px auto;
+	width: 65%;
+	margin: 30px auto;
 	padding: 20px 66px;
+}
+
+.previous-cards {
+	width: 276px;
+	height: 250px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow: inset 276px 250px rgba(236, 82, 66, 0.8);	
+}
+
+.previous-cards:hover {
+	box-shadow: inset 276px 250px rgba(236, 82, 66, 0.5);
+}
+
+.previous-cards img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	object-fit: cover;
+	
+}
+
+.previous-cards h4 {
+	color: #D3D3D3;
+	z-index: 998;
+	font-size: 28px;
+}
+
+.previous-cards h4:hover {
+	margin-bottom: 25px;
 }
 
 .footer-bottom-container-2 {
