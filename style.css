@@ -108,7 +108,7 @@ section {
 }
 
 body {
-  line-height: 1;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 ol,
@@ -135,6 +135,10 @@ table {
 }
 
 /* Index style */
+@font-face {
+  font-family: "cocogoose";
+  src: url(./cocogoose-font/cocogoose_pro_light-trial-webfont.woff);
+}
 
 .menu-bars {
   display: none;
@@ -146,6 +150,7 @@ table {
   background-color: #272a31;
   display: flex;
   justify-content: flex-end;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .nav-top {
@@ -169,12 +174,14 @@ table {
   color: #272a31;
   font-weight: bold;
   border-bottom: 1px solid #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-program-cards h4 a {
   text-decoration: none;
   color: #ec5242;
   font-size: 19px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-program-cards p a {
@@ -182,6 +189,7 @@ table {
   color: #d3d3d3;
   font-size: 14px;
   line-height: 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-program-container h6 a {
@@ -189,6 +197,7 @@ table {
   font-size: 16px;
   color: #272a31;
   border-bottom: 1px solid #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .nav-top ul li a {
@@ -196,17 +205,20 @@ table {
   text-decoration: none;
   font-size: 14px;
   font-weight: 550;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .nav-bottom-middle ul li a {
   text-decoration: none;
   color: #272a31;
   font-weight: bold;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .page-level ul li a {
   text-decoration: none;
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .text-contact a:hover {
@@ -221,6 +233,7 @@ table {
 
 .main-program-container h6 {
   margin: 35px 0 0 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-program-container h6 a:hover {
@@ -244,11 +257,13 @@ table {
   justify-content: space-between;
   align-items: center;
   padding: 10px 5px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .nav-bottom-left {
   width: 25%;
   padding-right: 25px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .nav-bottom-left p {
@@ -258,6 +273,7 @@ table {
   float: right;
   padding-left: 4px;
   padding-top: 3px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .nav-bottom-left img {
@@ -299,23 +315,28 @@ table {
   width: 125px;
   transition: ease-out 0.5s;
   cursor: pointer;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-briefing p {
   font-size: 15px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-text p {
   font-size: 14px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .text-card p {
   font-size: 14px;
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .text-contact p {
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-previous p {
@@ -323,34 +344,40 @@ table {
   color: #272a31;
   width: 85%;
   margin: 0 auto;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .footer-bottom-2 span,
 .footer-bottom-2 p {
   color: #d3d3d3;
   font-size: 13px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .footer-bottom span,
 .footer-bottom p {
   font-size: small;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-logo h3,
 .main-logo p {
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-logo p {
   padding: 30px 20px;
   width: 85%;
   margin: 0 auto;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .step-2 ul li p,
 .step-1 ul li p {
   color: #272a31;
   display: inline;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .nav-bottom-right p:hover {
@@ -370,28 +397,31 @@ table {
   background-position: center center;
   object-fit: cover;
   position: relative;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-section {
   margin-bottom: 25px;
-
-  /* width: 97%; */
   margin-right: 10px;
   padding-right: 10px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-section span,
 .main-section h1 {
   color: #ec5242;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-section h1 {
   font-size: 60px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-section span {
   font-size: 20px;
   font-style: italic;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-briefing {
@@ -400,11 +430,13 @@ table {
   width: 60%;
   padding: 20px 10px;
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-location {
   width: 75%;
   margin-top: 25px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-location h1,
@@ -413,6 +445,7 @@ table {
   width: 100%;
   margin-right: 15px;
   overflow-wrap: break-word;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-program-container {
@@ -421,11 +454,13 @@ table {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #d3d3d3;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-program-container h2 {
   color: #272a31;
   font-size: 22px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-text hr {
@@ -441,6 +476,11 @@ table {
   border: 2px solid #ec5242;
   fill: #ec5242;
   transition: width 2s;
+}
+
+.footer-top-container-2 {
+  display: none;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .footer-top-container hr {
@@ -501,6 +541,7 @@ table {
   width: 80%;
   margin: 0 auto;
   padding: 15px 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-program-cards {
@@ -508,6 +549,7 @@ table {
   background-color: #272a31;
   padding: 5px 10px;
   cursor: pointer;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-program-cards:hover {
@@ -525,14 +567,17 @@ table {
 
 .main-program-cards div {
   padding-top: 10px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .one {
   margin-bottom: 10px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .button768 {
   display: none;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-container {
@@ -540,12 +585,14 @@ table {
   margin-top: 30px;
   margin-bottom: 15px;
   background-color: white;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-container h2 {
   text-align: center;
   margin-bottom: 15px;
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-container hr:hover {
@@ -558,6 +605,7 @@ table {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-cards {
@@ -566,6 +614,7 @@ table {
   flex-flow: row wrap;
   justify-content: space-between;
   margin-bottom: 10px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-pic {
@@ -582,16 +631,19 @@ table {
   width: 70%;
   justify-content: start;
   padding: 0 6px 0 6px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-text h4 {
   font-size: 22px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-text span {
   color: #ec5242;
   font-size: 14px;
   line-height: 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .featured-text hr:hover {
@@ -601,12 +653,14 @@ table {
 .footer-top-container {
   background-color: #272a31;
   padding: 20px 10px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .footer-top-container h2 {
   text-align: center;
   color: #d3d3d3;
   font-size: 22px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .footer-top-container hr:hover {
@@ -617,6 +671,7 @@ table {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .footer-top ul li {
@@ -652,6 +707,7 @@ table {
   display: flex;
   padding: 25px;
   height: 125px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .footer-bottom-img {
@@ -663,6 +719,7 @@ table {
 .footer-bottom {
   width: 82%;
   padding: 0 130px 0 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 /* About style */
@@ -674,11 +731,13 @@ table {
   top: 125px;
   display: flex;
   justify-content: flex-end;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .page-level ul li {
   display: inline;
   padding: 0 1px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .page-level ul li a:hover {
@@ -692,17 +751,20 @@ table {
   background: url(./images/background2.jfif);
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-top-container h1 {
   color: #ec5242;
   margin: 50px;
   font-size: 50px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-top-container span {
   color: #ec5242;
   display: none;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .text-card {
@@ -712,11 +774,13 @@ table {
   margin: 15px auto;
   border: 1px solid #d3d3d3;
   padding: 20px 60px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .text-contact {
   width: 50%;
   margin: 40px auto;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-logo {
@@ -725,6 +789,7 @@ table {
   margin: 25px 0;
   padding: 25px 0;
   border-bottom: 1px solid #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-logo hr:hover {
@@ -759,10 +824,12 @@ table {
 .main-previous {
   text-align: center;
   margin: 25px 0 55px 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-previous h3 {
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-previous hr:hover {
@@ -775,6 +842,7 @@ table {
   justify-content: space-between;
   width: 70%;
   margin: 30px auto;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .previous-cards {
@@ -785,6 +853,7 @@ table {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   box-shadow: inset 276px 250px rgba(236, 82, 66, 0.8);
 }
 
@@ -796,15 +865,18 @@ table {
   color: #d3d3d3;
   z-index: 998;
   font-size: 28px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .lunch-day {
   padding: 7px;
   background-color: #d3d3d3;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .lunch-day h4 {
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .previous-cards h4:hover {
@@ -816,17 +888,20 @@ table {
   width: 100%;
   display: flex;
   padding: 25px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .footer-bottom-2 {
   padding-right: 130px;
   width: 72%;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 /* style tickets */
 
 .menu-bars-2 {
   display: none;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-tickets {
@@ -834,10 +909,12 @@ table {
   background-color: #d3d3d3;
   padding-bottom: 50px;
   width: 100%;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-tickets h3 {
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-tickets hr:hover {
@@ -849,6 +926,7 @@ table {
   margin: 35px auto;
   border: 1px solid gray;
   border-radius: 25px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .step-1 {
@@ -856,6 +934,7 @@ table {
   margin: 35px auto;
   border: 1px solid gray;
   border-radius: 25px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .step-2 ul,
@@ -871,6 +950,7 @@ table {
 .step-2 ul li p span,
 .step-1 ul li p span {
   color: #ec5242;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-lunch h3,
@@ -878,6 +958,7 @@ table {
 .step-1,
 .main-tickets h3 {
   text-align: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .tickets {
@@ -893,6 +974,7 @@ table {
     "student price5 price6 price7 price8";
   text-align: center;
   vertical-align: middle;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   width: 75%;
   margin: 25px auto;
   border: 10px solid #d3d3d3;
@@ -906,6 +988,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .day-1 {
@@ -915,6 +998,7 @@ table {
   justify-content: center;
   align-items: center;
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .day-2 {
@@ -924,6 +1008,7 @@ table {
   justify-content: center;
   align-items: center;
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .fide {
@@ -933,6 +1018,7 @@ table {
   justify-content: center;
   align-items: center;
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .date {
@@ -943,6 +1029,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .f28 {
@@ -953,6 +1040,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .f29 {
@@ -963,6 +1051,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .f2829 {
@@ -973,6 +1062,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .fide2829 {
@@ -983,6 +1073,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .normal {
@@ -993,14 +1084,17 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .price1 {
   grid-area: price1;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .price2 {
   grid-area: price2;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .price3 {
@@ -1019,6 +1113,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .price5 {
@@ -1050,6 +1145,7 @@ table {
   color: #ec5242;
   background-color: white;
   font-weight: bold;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .price1 label,
@@ -1061,17 +1157,20 @@ table {
 .price7 label,
 .price8 label {
   display: block;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .lunch {
   width: 75%;
   margin: 0 auto;
   padding: 35px 0;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .lunch-menu,
 .lunch-day {
   text-align: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-lunch {
@@ -1079,11 +1178,13 @@ table {
   margin: 0 auto;
   padding: 25px;
   width: 100%;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-lunch h3 {
   margin: 15px auto;
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-lunch hr:hover {
@@ -1094,18 +1195,22 @@ table {
 .lunch-1 {
   border: 1px solid gray;
   margin: 20px auto;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .lunch-menu {
   padding: 30px 15px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .menu {
   color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .lunch-menu label {
   padding: 0 30px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .button {
@@ -1121,6 +1226,7 @@ table {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   background-color: #ec5242;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -1139,6 +1245,7 @@ table {
 
   .page-level {
     display: none;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
   }
 
   .menu-bars {
@@ -1165,6 +1272,7 @@ table {
   .main-section-container {
     background-size: auto 100%;
     background-position: center;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
   }
 
   .main-location,
@@ -1269,5 +1377,41 @@ table {
 
   .footer-bottom-2 {
     padding-right: 0;
+  }
+
+  .footer-bottom-2 span {
+    display: none;
+  }
+
+  .footer-bottom-2 p {
+    margin-bottom: 0;
+    padding-top: 10px;
+    color: #272a31;
+  }
+
+  .footer-top-container-2 {
+    display: inline-block;
+    background-color: #272a31;
+    padding: 10px;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+  }
+
+  .footer-bottom-container-2 {
+    background-color: white;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+  }
+
+  .footer-top-container-2 h2 {
+    text-align: center;
+    color: #d3d3d3;
+    font-size: 22px;
+  }
+
+  .footer-top-container-2 hr {
+    width: 8%;
+    border: 1px solid #ec5242;
+    fill: #ec5242;
+    transition: width 2s;
+    margin-top: 0;
   }
 }
