@@ -702,6 +702,10 @@ table {
 
 /* style tickets */
 
+.menu-bars-2 {
+	display: none;
+}
+
 .main-tickets {
 	padding-top: 45px;
 	background-color: #D3D3D3;
@@ -1117,11 +1121,12 @@ table {
 		color: #D3D3D3;
 		font-weight: 400;
 		color: #272A31;
+		font-weight: bold;
 		text-align: center;
 		vertical-align: middle;
 		user-select: none;
 		border: 1px solid #EC5242;
-		padding: 1.375rem 11.75rem;
+		padding: 1.375rem 7.75rem;
 		margin: 20px auto;
 		font-size: 1rem;
 		line-height: 1.5;
