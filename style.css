@@ -169,13 +169,20 @@ table {
 	padding-left: 80px;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	/* padding-right: 15px; */
 	background-image: url(./images/chessbackground.jfif);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
+	object-fit: cover;
+	position: relative;
 }
 
 .main-section {
 	margin-bottom: 25px;
+	/* width: 97%; */
+	margin-right: 10px;
+	padding-right: 10px;
 }
 
 .main-section span,
@@ -205,13 +212,16 @@ table {
 }
 
 .main-location {
-	width: 58%;
+	width: 75%;
 	margin-top: 25px;
 }
 
 .main-location h1,
 .main-location span {
 	color: #d3d3d3;
+	width: 100%;
+	margin-right: 15px;
+	overflow-wrap: break-word;
 }
 
 .main-program-container {
@@ -268,10 +278,12 @@ table {
 }
 
 .main-program-cards div {
-	margin-bottom: 10px;
 	padding-top: 10px;
 }
 
+.one {
+	margin-bottom: 10px;
+}
 .main-program-cards h4 a{
 	text-decoration: none;
 	color: #EC5242;
@@ -432,6 +444,7 @@ table {
 .footer-top ul li a img {
 	width: 65px;
 	height: 60px;
+	margin-bottom: 10px;
 }
 .footer-bottom-container {
 	width: 100%;
@@ -1027,6 +1040,9 @@ table {
 	.nav-bottom-container {
 		display: none;
 	}
+	.page-level {
+		display: none;
+	}
 
 	.menu-bars {
 		display: block;
@@ -1036,24 +1052,58 @@ table {
 		top: 20px;
 		left: 40px;
 		color: #D3D3D3;
+		z-index: 2;
 	}
 
+	.menu-bars-2 {
+		color: #272A31;
+		display: block;
+		font-size: 35px;
+		background-color: transparent;
+		position: absolute;
+		top: 20px;
+		left: 40px;
+	}
+
+	.main-section-container {
+		background-size: auto 100%;
+		background-position: center;
+	}
+	.main-location,
 	.main-briefing {
-		width: 90%;
+		width: 75%;
+		max-width: 100%;
 	}
 	
 	.main-program {
 		flex-flow: column wrap;
-		width: 90%;				
+		width: 90%;
 	}
 
 	.main-program-cards {
 		width: 100%;
 		margin-top: 10px;
 		display: flex;
-		flex-flow: row;
 		align-items: center;
 		padding: 15px 15px;
+		justify-content: space-evenly;
+		vertical-align: middle;
+		flex-flow: row nowrap;
+	}
+
+	.one, .two {
+		width: 17%;
+		margin-right: 5px;
+	}
+
+	.three {
+		width: 76%;
+		/* padding: 10px 0 10px 10px; */
+		margin-bottom: 0;
+	}
+
+	.main-program-cards h4 a {
+		padding: 0 5px;
 	}
 
 	.main-program-container h6 {
@@ -1061,6 +1111,7 @@ table {
 	}
 
 	.button768 {
+		width: 75%;
 		display: inline-block;
 		background-color: #EC5242;
 		color: #D3D3D3;
@@ -1070,7 +1121,7 @@ table {
 		vertical-align: middle;
 		user-select: none;
 		border: 1px solid #EC5242;
-		padding: .375rem .75rem;
+		padding: 1.375rem 11.75rem;
 		margin: 20px auto;
 		font-size: 1rem;
 		line-height: 1.5;
@@ -1085,5 +1136,42 @@ table {
 
 	.featured-cards {
 		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	.featured-pic {
+		display: flex;
+		align-items: center;
+	}
+
+	.featured-pic img {
+		height: 85%;
+	}
+
+	.main-top-container span {
+		display: inline-block;
+		margin-top: 50px;
+	}
+
+	.main-top-container h1 {
+		margin-top: 0;
+	}
+
+	.text-contact p,
+	.text-contact a {
+		color: #D3D3D3
+	}
+
+	.previous-cards-container {
+		flex-flow: column wrap;
+	}
+
+	.previous-cards {
+		margin-bottom: 15px;
+		width: 100%;
+	}
+
+	.footer-bottom-2 {
+		padding-right: 0;
 	}
 }
