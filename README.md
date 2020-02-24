@@ -34,9 +34,6 @@ VSCode
 # Live Demo & Video Presentation
 <<<<<<< HEAD
 [Live Demo Link](https://raw.githack.com/javitocor/Capstone-Project/master/index.html)
-=======
-[Live Demo Link](https://raw.githack.com/javitocor/Capstone-Project/feature/index.html)
->>>>>>> feature
 
 [Live Presentation Link](https://www.loom.com/share/a83a363bfbd54bdfbddc0948616c4c5a)
 
