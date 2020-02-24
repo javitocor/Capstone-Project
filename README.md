@@ -1,13 +1,41 @@
-# Project Name
+# Microverse's Capstone Project
 
+![screenshot](/assets/images/screenshot.PNG)
 
 # What it does
+I created a website for a chess tournament 
+The requirements are:
 
+Whatever the content for the shop you may choose, you should build these 3 pages as the minimum requirements:
+
+- the main page, with a menu link to the about page and tickets page
+- the about page
+- the tickets page
+
+ 
+
+Each of these pages should have versions for 2 different screen sizes: 
+
+- mobile: up to 768px
+- desktop: from 768px
+
+You should follow the guidelines of the given design, including:
+
+- colors
+- typographies: font face, size and weight
+- layout: composition and space between elements, for the 2 given screen sizes
 
 # Built With
+HTML
+CSS
+Bootstrap
+VSCode
 
-# Live Demo
-[Live Demo Link]()
+# Live Demo & Video Presentation
+[Live Demo Link](https://raw.githack.com/javitocor/Capstone-Project/master/index.html)
+
+[Live Presentation Link](https://www.loom.com/share/a83a363bfbd54bdfbddc0948616c4c5a)
+
 
 # Getting Started
 To get a local copy up and running follow these simple example steps.
@@ -45,8 +73,8 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page]().
 
-# Attributions and Credit
-🚀
+# Attributions and Credit 🚀
+
 
 # Show your support
 Give a ⭐️ if you like this project!
