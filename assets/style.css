@@ -134,7 +134,7 @@ table {
   border-spacing: 0;
 }
 
-/* Index style */
+
 @font-face {
   font-family: "cocogoose";
   src: url(./cocogoose-font/cocogoose_pro_light-trial-webfont.woff);
@@ -723,8 +723,6 @@ table {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
-/* About style */
-
 .page-level {
   width: 20%;
   position: absolute;
@@ -897,8 +895,6 @@ table {
   width: 72%;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
-
-/* style tickets */
 
 .menu-bars-2 {
   display: none;
@@ -1234,8 +1230,6 @@ table {
 .button:hover {
   color: #d3d3d3;
 }
-
-/* Media queries */
 
 @media only screen and (max-width: 768px) {
   .nav-top-container,

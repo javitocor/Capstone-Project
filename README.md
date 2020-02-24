@@ -1,5 +1,6 @@
 # Microverse's Capstone Project
 
+![screenshot](/assets/images/screenshot.png)
 
 # What it does
 I created a website for a chess tournament 
