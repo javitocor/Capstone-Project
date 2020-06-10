@@ -26,10 +26,10 @@ You should follow the guidelines of the given design, including:
 - layout: composition and space between elements, for the 2 given screen sizes
 
 # Built With
-HTML
-CSS
-Bootstrap
-VSCode
+- HTML
+- CSS
+- Bootstrap
+- VSCode
 
 # Live Demo & Video Presentation
 
