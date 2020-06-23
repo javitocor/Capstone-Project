@@ -3,7 +3,7 @@
 ![screenshot](/assets/images/screenshot.PNG)
 
 # What it does
-I created a website for a chess tournament 
+I created a website for a chess tournament. 
 The requirements are:
 
 Whatever the content for the shop you may choose, you should build these 3 pages as the minimum requirements:
