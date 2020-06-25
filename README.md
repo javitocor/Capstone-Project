@@ -1,4 +1,6 @@
-# Microverse's Capstone Project
+# Microverse's HTML&CSS Capstone Project
+
+Multi-page website of a mock chess tournament created into the curriculum of Microverse's course.
 
 ![screenshot](/assets/images/screenshot.PNG)
 
